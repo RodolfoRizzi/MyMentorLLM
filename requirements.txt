@@ -1,0 +1,11 @@
+# Python 3.11. Versions are those that produced the paper; matplotlib 3.9.2 reproduces the published figures pixel for pixel.
+numpy==1.26.4
+pandas==3.0.3
+pyarrow==25.0.1
+matplotlib==3.9.2
+seaborn==0.13.2
+spacy==3.8.14
+emoatlas @ https://github.com/MassimoStel/emoatlas/archive/17b16d736e6935a63ccbbddeff739cd7baddb66c.tar.gz
+it_core_news_lg @ https://github.com/explosion/spacy-models/releases/download/it_core_news_lg-3.8.0/it_core_news_lg-3.8.0-py3-none-any.whl
+huggingface_hub
+jupyter

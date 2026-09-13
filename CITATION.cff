@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+type: software
+title: "MyMentorLLM analysis code"
+abstract: >-
+  Code that reproduces every table, figure and in-text result of the MyMentorLLM
+  paper from the public dataset, and asserts each reproduced value against the
+  published one. The dataset itself (2,100 simulated cognitive behavioural therapy
+  sessions, 65,100 dialogue turns and 263.4 hours of spoken psychotherapy, in
+  Italian) is distributed separately on Hugging Face.
+authors:
+  - family-names: Rizzi
+    given-names: Rodolfo
+    affiliation: "University of Trento"
+    orcid: "https://orcid.org/0009-0005-8349-0889"
+  - family-names: Grecucci
+    given-names: Alessandro
+    affiliation: "University of Bari Aldo Moro"
+    orcid: "https://orcid.org/0000-0001-6043-2196"
+  - family-names: Stella
+    given-names: Massimo
+    affiliation: "University of Trento"
+    orcid: "https://orcid.org/0000-0003-1810-9699"
+version: 1.0.0
+date-released: 2026-01-01
+license: MIT
+keywords:
+  - psychotherapy
+  - cognitive behavioural therapy
+  - large language models
+  - speech-to-speech interaction
+  - deliberate practice
+  - Cognitive Therapy Rating Scale
+  - synthetic dialogue
+  - Italian
+url: "https://github.com/RodolfoRizzi/MyMentorLLM"
+repository-artifact: "https://huggingface.co/datasets/RodolfoRizzi/MyMentorLLM-dataset"  # the dataset
+preferred-citation:
+  type: article
+  title: >-
+    MyMentorLLM: A psychotherapy GenAI environment with multimodal voice/text
+    patients, trainees and experts for deliberate practice
+  authors:
+    - family-names: Rizzi
+      given-names: Rodolfo
+      orcid: "https://orcid.org/0009-0005-8349-0889"
+    - family-names: Grecucci
+      given-names: Alessandro
+      orcid: "https://orcid.org/0000-0001-6043-2196"
+    - family-names: Stella
+      given-names: Massimo
+      orcid: "https://orcid.org/0000-0003-1810-9699"
+  year: 2026
+  journal: "arXiv preprint arXiv:2607.25667"
+  url: "https://arxiv.org/abs/2607.25667"
